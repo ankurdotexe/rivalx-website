@@ -202,12 +202,13 @@ body.active { overflow-y: hidden; }
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 13px 34px;
-  clip-path: var(--polygon-1);
-  transition: var(--transition-1);
+  padding: 8px 42px;
+  border-radius: 50px;
 }
 
 .btn-primary { background: var(--green); }
+
+.btn-border { border: 1px solid #fbff06;}
 
 .btn-primary:is(:hover, :focus) { background: var(--raisin-black-1); }
 
@@ -1777,4 +1778,28 @@ body.active { overflow-y: hidden; }
 
   .footer-menu-list { justify-content: flex-end; }
 
+}
+
+/* REGISTRATION  FORM */
+
+.form-Reg {
+  width: 100%;
+  font-family: var(--ff-poppins);
+  font-size: 12px;
+}
+
+.form-input {
+  margin: 3px 0px -10px 0px;
+  padding: 2px 1px 2px 1px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.2);
+}
+#agree{ 
+    width: auto;
+    margin-right: 3px; 
+  }
+
+#submit {
+  background-color: var(--green);
+  margin-top: 5px;
 }
