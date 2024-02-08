@@ -1803,3 +1803,9 @@ body.active { overflow-y: hidden; }
   background-color: var(--green);
   margin-top: 5px;
 }
+#login {
+  color: #fff;
+}
+#login :hover {
+  background-color: var(--green);
+}
